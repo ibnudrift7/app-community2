@@ -1,0 +1,87 @@
+/* Your app styles here */
+.size-10 {
+  font-size: 10px;
+}
+
+.size-11 {
+  font-size: 11px;
+}
+
+.size-12 {
+  font-size: 12px;
+}
+
+.size-22 {
+  font-size: 22px
+}
+
+.size-25 {
+  font-size: 25px
+}
+
+.size-29 {
+  font-size: 29px
+}
+
+.size-50 {
+  font-size: 50px
+}
+
+i.icon.f7-icons.ios-only.size-50.center {
+  margin: 0 auto;
+  display: block;
+}
+
+.demo-facebook-card .card-header {
+  display: block;
+  padding: 10px;
+}
+
+.demo-facebook-card .demo-facebook-avatar {
+  float: left;
+}
+
+.demo-facebook-card .demo-facebook-name {
+  margin-left: 44px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.demo-facebook-card .demo-facebook-date {
+  margin-left: 44px;
+  font-size: 13px;
+  color: #8e8e93;
+}
+
+.demo-facebook-card .card-footer {
+  background: #fafafa;
+}
+
+.demo-facebook-card .card-footer a {
+  color: #81848b;
+  font-weight: 500;
+
+}
+
+.demo-facebook-card .card-content img {
+  display: block;
+}
+
+.demo-facebook-card .card-content-padding {
+  padding: 15px 10px;
+}
+
+.demo-facebook-card .card-content-padding .likes {
+  color: #8e8e93;
+}
+
+.demo-card-header-pic .card-header {
+  height: 40vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.demo-card-header-pic .card-content-padding .date {
+  color: #8e8e93;
+}
