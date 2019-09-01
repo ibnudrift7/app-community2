@@ -1,15 +1,15 @@
-<div class="page" data-name="about">
+<div class="page" data-name="profile">
   <div class="navbar">
     <div class="navbar-inner sliding">
       <div class="left">
-        <a href="#" class="link back">
+        <a href="/info/" class="link back">
           <i class="icon icon-back"></i>
           <span class="ios-only">Back</span>
         </a>
       </div>
       <div class="title">Profile</div>
       <div class="right">
-        <a href="#" class="link icon-only panel-open" data-panel="right">
+        <a href="#" class="link icon-only panel-open display-none" data-panel="right">
           <i class="icon f7-icons ios-only">menu</i>
           <i class="icon material-icons md-only">menu</i>
         </a>
@@ -17,14 +17,15 @@
     </div>
   </div>
   <div class="page-content">
-    <div class="block ">
+    <div class="block pageform-profile">
       <div class="list inline-labels no-hairlines-md margin-horizontal">
         <ul>
 
+          <input id="profile_user_id" type="hidden">
           <div class="item-inner padding-horizontal">
             <div class="item-title item-label">Nama</div>
             <div class="item-input-wrap">
-              <input type="text" placeholder="Your name">
+              <input id="profile_name" type="text" placeholder="Your name">
               <span class="input-clear-button"></span>
             </div>
           </div>
@@ -34,7 +35,7 @@
           <div class="item-inner padding-horizontal">
             <div class="item-title item-label">E-mail</div>
             <div class="item-input-wrap">
-              <input type="email" placeholder="Your e-mail">
+              <input id="profile_email" type="email" placeholder="Your e-mail">
               <span class="input-clear-button"></span>
             </div>
           </div>
@@ -44,34 +45,44 @@
           <div class="item-inner padding-horizontal">
             <div class="item-title item-label">Phone</div>
             <div class="item-input-wrap">
-              <input type="tel" placeholder="Your phone number">
+              <input id="profile_hp" type="tel" placeholder="phone">
               <span class="input-clear-button"></span>
             </div>
           </div>
           </li>
 
           <div class="item-inner padding-horizontal">
-            <div class="item-title item-label">Gender</div>
+            <div class="item-title item-label">No KTP</div>
+            <div class="item-input-wrap">
+              <input id="profile_no_ktp" type="text" placeholder="phone">
+              <span class="input-clear-button"></span>
+            </div>
+          </div>
+          </li>
+
+          <div class="item-inner padding-horizontal">
+            <div class="item-title item-label">Kelamin</div>
             <div class="item-input-wrap input-dropdown-wrap">
-              <select placeholder="Please choose...">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
+              <select id="profile_jenis_kelamin" placeholder="...Pilih...">
+                <option value="1">Pria</option>
+                <option value="2">Wanita</option>
               </select>
             </div>
           </div>
           </li>
 
           <div class="item-inner padding-horizontal">
-            <div class="item-title item-label">Birthday</div>
+            <div class="item-title item-label">Tanggal Lahir</div>
             <div class="item-input-wrap">
-              <input type="date" value="2014-04-30" placeholder="Please choose...">
+              <input id="profile_tanggal_lahir" type="date" value="">
             </div>
           </div>
           </li>
+
           <div class="item-inner padding-horizontal">
-            <div class="item-title item-label">No. KTP</div>
+            <div class="item-title item-label">Perusahaan</div>
             <div class="item-input-wrap">
-              <input type="text" placeholder="No.KTP">
+              <input id="profile_perusahaan" type="text" placeholder="Perusahaan">
               <span class="input-clear-button"></span>
             </div>
           </div>
@@ -80,15 +91,22 @@
           <div class="item-inner padding-horizontal">
             <div class="item-title item-label">Info Usaha</div>
             <div class="item-input-wrap">
-              <textarea placeholder="Bio"></textarea>
+              <textarea id="profile_bidang_usaha"></textarea>
             </div>
           </div>
           </li>
 
-
+           <div class="item-inner padding-horizontal">
+            <div class="item-title item-label"></div>
+            <div class="item-input-wrap">
+              <button class="button button-outline button-save-profile">Save</button>
+            </div>
+          </div>
+          </li>
         </ul>
       </div>
-      <p class="text-align-center">PRODUK USAHA</p>
+
+      <!-- <p class="text-align-center">PRODUK USAHA</p>
       <div class="list media-list inset no-margin margin-horizontal">
         <ul>
           <li>
@@ -128,7 +146,7 @@
             </a>
           </li>
         </ul>
-      </div>
+      </div> -->
 
     </div>
 

@@ -15,6 +15,14 @@ routes = [{
     url: './pages/market.html',
   },
   {
+    path: '/marketanda/',
+    url: './pages/marketanda.html',
+  },
+  {
+    path: '/tambahmarket/',
+    url: './pages/tambahmarket.html',
+  },
+  {
     path: '/alltransaction/',
     url: './pages/alltransaction.html',
   },
@@ -43,7 +51,6 @@ routes = [{
     path: '/profile/',
     url: './pages/profile.html',
   },
-
 
   {
     path: '/about/',
