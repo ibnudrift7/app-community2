@@ -223,6 +223,14 @@ $$(document).on('page:init', '.page[data-name="tambahmarket"]', function (e) {
 
 });
 
+$$(document).on('page:init', '.page[data-name="penawaran"]', function (e) {
+  
+  $('.btn-deal').on('click', function(){
+    app.dialog.alert('penawaran berhasil');
+  })
+
+});
+
 $$(document).on('page:init', '.page[data-name="market"]', function (e) {
 
   var users_id;
